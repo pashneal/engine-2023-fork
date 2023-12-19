@@ -7,3 +7,6 @@ gamelog.txt
 .idea/
 .metadata/
 build/
+target
+*.so
+Cargo.lock

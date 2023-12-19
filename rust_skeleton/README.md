@@ -4,8 +4,13 @@ There are a few dependencies inherited from the C++ portion of the code,
 you can install then by doing the linux equivalent of 
 
 ```bash
-    sudo apt install libfmt-dev  //  FMT library
-    sudo apt install libboost-all-dev // Boost Library
+apt install libfmt-dev libboost-all-dev cmake clang #  FMT and Boost library
+```
+
+For arch-based:
+
+```bash
+pacman -S fmt boost cmake clang
 ```
 
 # Installation 
@@ -30,7 +35,7 @@ And make sure that the `librust_skeleton.so` is correct for the scrimmage archit
 
 If you see the following error
 ```
-    make[2]: *** No rule to make target '../librust_skeleton.so', needed by 'pokerbot'.  Stop.
+make[2]: *** No rule to make target '../librust_skeleton.so', needed by 'pokerbot'.  Stop.
 ```
 
 Be sure to run `./rust_build.sh` first and resolve any errors in the rust compilation first.
