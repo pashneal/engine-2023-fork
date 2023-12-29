@@ -1,7 +1,7 @@
 # Dependencies 
 
 There are a few dependencies inherited from the C++ portion of the code, 
-you can install then by doing the linux equivalent of 
+you can install them by doing the linux equivalent of 
 
 ```bash
 apt install libfmt-dev libboost-all-dev cmake clang
